@@ -4,7 +4,7 @@ import com.google.inject.Provider;
 
 import javax.inject.Inject;
 
-public class GumballMachine {
+class GumballMachine {
 
     @Inject
     private Provider<Gum> gumProvider;
